@@ -19,7 +19,6 @@ public class ScrenmatchApplication implements CommandLineRunner {
 	public static void main(String[] args) {
 		SpringApplication.run(ScrenmatchApplication.class, args);
 	}
-	ConsumoAPI consumoAPI = new ConsumoAPI();
 
 	@Override
 	public void run(String... args) throws Exception {
